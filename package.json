@@ -4,7 +4,7 @@
     "scripts": {
         "ng": "ng",
         "start": "npx -p @angular/cli@12 ng serve",
-        "build": "npx -p @angular/cli@12 ng build --base-href /timer_dominio/ && copy docs\\index.html docs\\404.html && copy CNAME DOCS\\CNAME",
+        "build": "npx -p @angular/cli@12 ng build --base-href https://falconii.github.io/timer_dominio/ && copy docs\\index.html docs\\404.html && copy CNAME DOCS\\CNAME",
         "watch": "ng build --watch --configuration development",
         "test": "ng test"
     },
